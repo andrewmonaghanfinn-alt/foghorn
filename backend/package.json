@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:secure": "set NODE_EXTRA_CA_CERTS=C:\\Users\\fandrewmonaghan\\Desktop\\certs\\corp-root.pem && node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fast-xml-parser": "^5.4.2"
+  }
+}
