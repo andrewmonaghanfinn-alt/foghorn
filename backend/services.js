@@ -83,6 +83,12 @@ const monitoredServices = [
     url: "https://status.slack.com/",
     resolver: "html",
   },
+  {
+    id: "claude",
+    name: "Claude",
+    url: "https://status.claude.com/api/v2/status.json",
+    sourceType: "statuspage",
+  },
 ];
 
 export default monitoredServices;
